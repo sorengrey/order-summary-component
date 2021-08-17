@@ -10,7 +10,7 @@ body {
 }
 
 main {
-    width: 75%;
+    width: 85%;
     margin: auto;
     border-radius: 10px;
     overflow: hidden;
@@ -18,8 +18,11 @@ main {
     text-align: center;
 }
 
-img {
-    display: flex;
+#hero {
+    background-image: url("./images/illustration-hero.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 175px;
 }
 
 #ordersummary {
