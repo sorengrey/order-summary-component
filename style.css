@@ -1,4 +1,42 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     background-color: hsl(225, 100%, 94%);
     font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+}
+
+main {
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+img {
+    display: flex;
+}
+
+#ordersummary {
+    font-weight: 700;
+}
+
+#youcan {}
+
+#annualplan {
+    display: inline-flex;
+    background-color: hsl(225, 100%, 98%);
+    width: 80%;
+    border-radius: 8px;
+}
+
+#cancel {}
+
+.attribution {
+    display: none;
 }
