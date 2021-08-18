@@ -12,10 +12,11 @@ body {
 main {
     width: 85%;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 18px;
     overflow: hidden;
     background-color: #FFFFFF;
     text-align: center;
+    font-size: 16px;
 }
 
 #hero {
@@ -26,19 +27,73 @@ main {
 }
 
 #ordersummary {
-    font-weight: 700;
+    font-weight: 900;
+    font-size: 22px;
+    margin: 1em 0 1em 0;
+    color: hsl(223, 47%, 23%);
 }
 
-#youcan {}
+#youcan {
+    color: hsl(224, 23%, 55%);
+    width: 82%;
+    margin: auto;
+    line-height: 26px;
+    padding-bottom: 2em;
+}
 
 #annualplan {
     display: inline-flex;
     background-color: hsl(225, 100%, 98%);
     width: 80%;
     border-radius: 8px;
+    padding: 1em;
+    z-index: -1;
 }
 
-#cancel {}
+#note {
+    padding-right: .5em;
+    height: 44px;
+    width: 44px;
+}
+
+#plan {
+    font-weight: 700;
+    display: block;
+    font-size: 14px;
+    margin-left: 1em;
+}
+
+#cost {
+    color: hsl(224, 23%, 55%);
+}
+
+#change {
+    font-weight: 900;
+    margin: 1em 0 0 14em;
+    font-size: 13px;
+    position: absolute;
+    z-index: 0;
+    color: hsl(245, 75%, 52%);
+}
+
+button {
+    font-weight: 700;
+    font-size: 15px;
+    background-color: hsl(245, 75%, 52%);
+    color: #FFFFFF;
+    border: none;
+    padding: 1em 4.2em 1em 4.2em;
+    margin: 1.5em 1em 1em 1em;
+    border-radius: 12px;
+    filter:drop-shadow(0 10px 18px hsl(220, 29%, 71%));
+}
+
+#cancel {
+    color:hsl(224, 23%, 55%);
+    font-weight: 900;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
 
 .attribution {
     display: none;
