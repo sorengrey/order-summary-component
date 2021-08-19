@@ -110,7 +110,7 @@ button {
         background-size: contain;
     }
     main {
-        width: 39%;
+        width: 35%;
         border-radius: 20px;
     }
     #hero {
@@ -152,5 +152,8 @@ button {
     #change:hover {
         cursor: pointer;
         color: #766CF1;
+    }
+    #cancel {
+        padding-bottom: 3em;
     }
 }
