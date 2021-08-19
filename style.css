@@ -35,7 +35,7 @@ main {
     color: hsl(223, 47%, 23%);
 }
 
-#youcan {
+p {
     color: hsl(224, 23%, 55%);
     width: 82%;
     margin: auto;
@@ -122,7 +122,7 @@ button {
         line-height: 37.04px;
         margin: 2em 0 .5em 0;
     }
-    #youcan {
+    p {
         width: 60%;
         line-height: 26px;
     }
