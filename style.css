@@ -7,10 +7,11 @@ body {
     background-color: hsl(225, 100%, 94%);
     font-family: 'Red Hat Display', sans-serif;
     display: flex;
+    background-image:url(./images/pattern-background-mobile.svg);
 }
 
 main {
-    width: 85%;
+    width: 83%;
     margin: auto;
     border-radius: 18px;
     overflow: hidden;
@@ -29,7 +30,7 @@ main {
 #ordersummary {
     font-weight: 900;
     font-size: 22px;
-    margin: 1em 0 1em 0;
+    margin: .8em 0 1em 0;
     color: hsl(223, 47%, 23%);
 }
 
@@ -39,6 +40,7 @@ main {
     margin: auto;
     line-height: 26px;
     padding-bottom: 2em;
+    font-weight: 500;
 }
 
 #annualplan {
@@ -57,7 +59,7 @@ main {
 }
 
 #plan {
-    font-weight: 700;
+    font-weight: 900;
     display: block;
     font-size: 14px;
     margin-left: 1em;
@@ -65,15 +67,16 @@ main {
 
 #cost {
     color: hsl(224, 23%, 55%);
+    opacity: 0.7;
 }
 
 #change {
-    font-weight: 900;
-    margin: 1em 0 0 14em;
+    font-weight: 700;
+    margin: .5em 0 0 16em;
     font-size: 13px;
     position: absolute;
     z-index: 0;
-    color: hsl(245, 75%, 52%);
+    color: #382AE1;
 }
 
 button {
@@ -97,4 +100,56 @@ button {
 
 .attribution {
     display: none;
+}
+
+@media only screen and (min-width: 376px){
+    body {
+        background-image: url(./images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    main {
+        width: 39%;
+        border-radius: 20px;
+    }
+    #hero {
+        height: 280px;
+        background-size: cover;
+    }
+    #ordersummary {
+        font-size: 28px;
+        line-height: 37.04px;
+        margin: 2em 0 .5em 0;
+    }
+    #youcan {
+        width: 60%;
+        line-height: 26px;
+    }
+    #annualplan {
+        width: 354px;
+        padding: 1.5em 0 1.5em 0;
+        line-height: 21.17px;
+    }
+    #note {
+        padding-left: 1em;
+    }
+    #change:hover {
+        cursor: pointer;
+    }
+    #change {
+        margin: .5em 0 0 21em;
+    }
+    button {
+        margin: 2em 1em 1em 1em;
+        font-size: 15px;
+        width: 354px;
+    }
+    button:hover {
+        background-color: #766CF1;
+        cursor: pointer;
+    }
+    #change:hover {
+        cursor: pointer;
+        color: #766CF1;
+    }
 }
